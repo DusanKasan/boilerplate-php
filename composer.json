@@ -1,0 +1,13 @@
+{
+  "require-dev": {
+    "behat/behat": "~3.0",
+    "phpspec/phpspec": "~2.0",
+    "squizlabs/php_codesniffer": "~2.0",
+    "phpmd/phpmd" : "@stable"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  }
+}
