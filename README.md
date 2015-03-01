@@ -12,8 +12,17 @@ This is for my own use, so the parts of the boilerplate will be highly opinionat
     * [PHPSpec](www.phpspec.com)
     * [PHPSpec Coverage Plugin](https://github.com/henrikbjorn/PhpSpecCodeCoverageExtension)
 * PHPSpec setup to generate coverage
+* Mess detector ruleset file
+* Pretty strict scrutinizer setup
 * Intellij IDEA 14 setting
 * Default .gitignore
     * ignores /vendor and coverage output
 * This Readme
 * MIT License
+
+## What to do after creating new project ##
+* Set it up in Scrutinizer
+* Set it up in SensioLabs Insight
+* Set it up in IDEA
+* Write som Behat tests
+* Red/Green/Refactor PHPSpec tests till done :)
