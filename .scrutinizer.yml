@@ -5,7 +5,7 @@ build:
   tests:
     override:
       -
-        command: 'vendor/bin/phpspec run -f progress -c phpspec-with-coverage.yml'
+        command: 'vendor/bin/phpspec run -f progress -c ci/phpspec-with-coverage.yml'
         coverage:
           file: 'coverage.clover'
           format: 'php-clover'
@@ -20,7 +20,7 @@ tools:
     sensiolabs_security_checker: true
     php_mess_detector:
         config:
-            ruleset: phpmd.xml
+            ruleset: ci/phpmd.xml
 
 build_failure_conditions:
     - 'elements.rating(<= B).exists'                # No classes/methods with a rating of B or worse
