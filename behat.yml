@@ -1,0 +1,11 @@
+default:
+    extensions:
+        Extensions\BehatLoader: ~
+        Behat\MinkExtension:
+            base_url: http://your.test.domain
+            goutte: ~
+            selenium2: ~
+            zombie: ~
+            default_session: goutte
+            javascript_session: zombie
+            #javascript_session: selenium2
