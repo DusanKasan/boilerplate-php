@@ -1,4 +1,6 @@
 {
+  "name": "DusanKasan/boilerplate-php",
+  "description": "Boilerplate for new projects",
   "require-dev": {
     "phpspec/phpspec": "~2.0",
     "henrikbjorn/phpspec-code-coverage": "~1.0",
