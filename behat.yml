@@ -1,6 +1,5 @@
 default:
     extensions:
-        Extensions\BehatLoader: ~
         Behat\MinkExtension:
             base_url: http://your.test.domain
             goutte: ~
