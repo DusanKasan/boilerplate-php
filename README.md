@@ -4,6 +4,14 @@ Contains everything needed for starting a new project in small amount of time.
 ## Disclaimer ##
 This is for my own use, so the parts of the boilerplate will be highly opinionated.
 
+## How to use it ##
+```bash
+git clone git@github.com:DusanKasan/boilerplate-php.git PROJECT_NAME
+cd PROJECT_NAME
+rm -rf .git
+git init
+```
+
 ## What does it contain ##
 * Stuff in composer.json
     * [Code Sniffer](https://github.com/squizlabs/PHP_CodeSniffer)
