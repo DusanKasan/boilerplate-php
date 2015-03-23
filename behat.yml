@@ -8,3 +8,11 @@ default:
             default_session: goutte
             javascript_session: zombie
             #javascript_session: selenium2
+
+    autoload:
+        '': %paths.base%/tests/features/bootstrap
+
+    suites:
+        default:
+            contexts:
+                - FeatureContext
