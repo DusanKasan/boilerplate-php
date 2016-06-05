@@ -6,8 +6,7 @@ This is for my own use, so the parts of the boilerplate will be highly opinionat
 
 ## How to use it ##
 ```bash
-composer create-project dusank/boilerplate-php directory_name --repository-url=github.com:DusanKasan/boilerplate-php.git
-git init
+composer create-project dusank/boilerplate-php --repository-url=https://raw.githubusercontent.com/DusanKasan/boilerplate-php/master YOUR_PROJECT_DIR
 ```
 
 ## What does it contain ##
