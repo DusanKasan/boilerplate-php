@@ -6,9 +6,7 @@ This is for my own use, so the parts of the boilerplate will be highly opinionat
 
 ## How to use it ##
 ```bash
-git clone git@github.com:DusanKasan/boilerplate-php.git PROJECT_NAME
-cd PROJECT_NAME
-rm -rf .git
+composer create-project dusank/boilerplate-php directory_name --repository-url=github.com:DusanKasan/boilerplate-php.git
 git init
 ```
 
