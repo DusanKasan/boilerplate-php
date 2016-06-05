@@ -1,7 +1,7 @@
 {
   "packages": {
-    "dusank/boilerplate-php" : [
-      {
+    "dusank/boilerplate-php": {
+      "1.0.0": {
         "name": "dusank/boilerplate-php",
         "version": "1.0.0",
         "source": {
@@ -9,7 +9,7 @@
           "type": "git",
           "reference": "master"
         }
-      ]
+      }
     }
   }
 }
