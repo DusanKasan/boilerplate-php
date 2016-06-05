@@ -1,13 +1,15 @@
 {
   "packages": {
-    "dusank/boilerplate-php" : {
-      "name": "dusank/boilerplate-php",
-      "version": "1.0.0",
-      "source": {
-        "url": "git@github.com:DusanKasan/boilerplate-php.git",
-        "type": "git",
-        "reference": "master"
-      }
+    "dusank/boilerplate-php" : [
+      {
+        "name": "dusank/boilerplate-php",
+        "version": "1.0.0",
+        "source": {
+          "url": "git@github.com:DusanKasan/boilerplate-php.git",
+          "type": "git",
+          "reference": "master"
+        }
+      ]
     }
   }
 }
